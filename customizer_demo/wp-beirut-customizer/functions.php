@@ -27,7 +27,7 @@ add_action( 'customize_preview_init', 'wp_beirut_customizer_live_preview' );
  * @package wp-beirut-customizer
  * @since   1.0.0
  */
-function wp_beirut_customizer_customizer_css() {
+function wp_beirut_customizer_css() {
 	?>
 	<style type="text/css">
 		a { 
@@ -49,7 +49,7 @@ function wp_beirut_customizer_customizer_css() {
 	</style>
 	<?php
 }
-add_action( 'wp_head', 'wp_beirut_customizer_customizer_css' );
+add_action( 'wp_head', 'wp_beirut_customizer_css' );
 
 /**
  * Defines all of the sections, settings, and controls for the various
