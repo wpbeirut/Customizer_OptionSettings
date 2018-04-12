@@ -187,7 +187,7 @@ function wp_beirut_customizer_register_theme_customizer( $wp_customizer ) {
 	$wp_customizer->add_setting(
 		'wp_beirut_customizer_footer_message',
 		array(
-			'default'    => 'Copyright 2013 All Rights Reserved',
+			'default'    => 'Copyright 2018 All Rights Reserved',
 			'transport'  => 'postMessage'
 		)
 	);
